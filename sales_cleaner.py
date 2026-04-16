@@ -359,7 +359,7 @@ print(f"{'City':<12}   {"Orders":<15}   {"Revenue":<12}   {"Avg Order":<12}")
 for city in city_breakdown_order.index:
     print(f"{city:<12}   {city_breakdown_order[city]:<15}   {city_breakdown_revenue[city]:<12}   {city_breakdown_avg[city]:<12}")
 
-discount_percentage=(df["Discount"].sum()/df["Total"].sum())/100
+discount_percentage=(df["Discount"].sum()/df["Total"].sum())*100
 print()
 
 

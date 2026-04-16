@@ -1,0 +1,25 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and OS artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated report outputs
+clean_sales_report.xlsx
+high_value_orders.xlsx
+city_summary.xlsx
+product_summary.xlsx
+
+# Keep local/raw data out of VCS by default
+raw_sales.xlsx
